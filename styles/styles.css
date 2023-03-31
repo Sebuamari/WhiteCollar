@@ -1,7 +1,3 @@
-body {
-    height: 2301px;
-}
-
 header {
     position: absolute;
     top: 53px;
@@ -88,6 +84,11 @@ header img {
 #nav-container button:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+#sections-container {
+    height: 2183px;
+    margin-bottom: 131px;
 }
 
 #top-section {
@@ -215,7 +216,6 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 131px;
 }
 
 #bottom-section .header {
@@ -259,6 +259,7 @@ header img {
     font-size: 25px;
     line-height: 38px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .text-box p {
