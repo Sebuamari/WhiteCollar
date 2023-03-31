@@ -1,3 +1,7 @@
+body {
+    height: 2301px;
+}
+
 header {
     position: absolute;
     top: 53px;
@@ -52,7 +56,9 @@ header img {
 #top-section h4,
 .container p,
 .testimonials,
-#middle-section p  {
+#middle-section p,
+#bottom-section .small-header ,
+#text-box p  {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -102,7 +108,9 @@ header img {
 
 #top-section h2,
 .inner-header,
-#middle-section h3 {
+#middle-section h3,
+#bottom-section .header,
+#text-box h3  {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -196,4 +204,65 @@ header img {
     margin-top: 47px;
     width: 65px;
     height: 65px;
+}
+
+#bottom-section {
+    position: absolute;
+    top: 1511px;
+    left: calc((100vw - 1220px)/2);
+    width: 1220px;
+    height: 659px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 131px;
+}
+
+#bottom-section .header {
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 41px;
+}
+
+#bottom-inner-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#bottom-inner-section .container {
+    width: 386px;
+    height: 532px;
+    padding: 0;
+}
+
+#bottom-inner-section .container img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 69px;
+    width: 341px;
+    height: 114px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 22px;
+}
+
+.text-box h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+
+.text-box p {
+    line-height: 135.19%;
+    color: #7D7D7D;
+    margin: 0;
 }
