@@ -51,7 +51,8 @@ header img {
 #header-nav a ,
 #top-section h4,
 .container p,
-.testimonials {
+.testimonials,
+#middle-section p  {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -100,7 +101,8 @@ header img {
 }
 
 #top-section h2,
-.inner-header {
+.inner-header,
+#middle-section h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -152,4 +154,46 @@ header img {
 .container img {
     width: 72px;
     height: 72px;
+}
+
+#middle-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 799px;
+}
+
+#middle-inner-section {
+    position: relative;
+    top: 143px;
+    left: calc((100vw - 511px)/2);
+    width: 511px;
+    height: 270.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+}
+
+#middle-section-background {
+    position: absolute;
+    width: 100vw;
+    height: 557px;
+}
+
+#middle-section p {
+    font-weight: 500;
+}
+
+#middle-section h3 {
+    margin-top: 16px;
+    margin-bottom: 21px;
+}
+
+#play-button {
+    margin-top: 47px;
+    width: 65px;
+    height: 65px;
 }
